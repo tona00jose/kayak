@@ -1,0 +1,12 @@
+module KayakProRace
+typeinfo KayakProRace_App.qmltypes
+prefer :/KayakProRace/
+App 1.0 App.qml
+Main 1.0 Main.qml
+FirstScreen 1.0 FirstScreen.qml
+SetBluetoothAddress 1.0 SetBluetoothAddress.qml
+Racing 1.0 Racing.qml
+QuickStartGuide 1.0 QuickStartGuide.qml
+Features 1.0 Features.qml
+depends QtQuick
+
