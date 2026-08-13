@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "K1_Cinco HEART-2@3x (1) 3.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "K1_Cinco HEART-2@3x (1) 2@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "K1_Cinco HEART-2@3x (1) 2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

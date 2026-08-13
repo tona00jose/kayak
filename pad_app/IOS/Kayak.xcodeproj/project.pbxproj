@@ -1,0 +1,1513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		817AEDE32EEB34EA0073EBA6 /* BluetoothManager+Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817AEDE22EEB34EA0073EBA6 /* BluetoothManager+Timer.swift */; };
+		81AUTH012EEB34EA0073EB30 /* AuthDesignComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AUTH002EEB34EA0073EB30 /* AuthDesignComponents.swift */; };
+		81AUTHF22EEB34EA0073EB40 /* BricolageGrotesque-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81AUTHF12EEB34EA0073EB40 /* BricolageGrotesque-Regular.ttf */; };
+		81BLE0012EEB34EA0073EB01 /* BLEConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BLE0002EEB34EA0073EB01 /* BLEConstants.swift */; };
+		81BLE0032EEB34EA0073EB02 /* RowingMetricsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BLE0022EEB34EA0073EB02 /* RowingMetricsParser.swift */; };
+		81BLE0052EEB34EA0073EB03 /* BleMetricsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BLE0042EEB34EA0073EB03 /* BleMetricsStore.swift */; };
+		81BLE0072EEB34EA0073EB04 /* BleMetricsDisplaySync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BLE0062EEB34EA0073EB04 /* BleMetricsDisplaySync.swift */; };
+		81BLE0092EEB34EA0073EB05 /* SessionPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BLE0082EEB34EA0073EB05 /* SessionPreferences.swift */; };
+		81BLE00B2EEB34EA0073EB06 /* MockRowingMetricsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BLE00A2EEB34EA0073EB06 /* MockRowingMetricsProvider.swift */; };
+		81DEV0012EEB34EA0073EB10 /* DeviceSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DEV0002EEB34EA0073EB10 /* DeviceSetupView.swift */; };
+		81DEV0042EEB34EA0073EB12 /* DeviceSetupMachineTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DEV0032EEB34EA0073EB12 /* DeviceSetupMachineTile.swift */; };
+		81DEV0062EEB34EA0073EB13 /* DeviceSetupModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DEV0052EEB34EA0073EB13 /* DeviceSetupModels.swift */; };
+		81DEV0082EEB34EA0073EB14 /* DeviceSetupView+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DEV0072EEB34EA0073EB14 /* DeviceSetupView+Actions.swift */; };
+		81DEV00C2EEB34EA0073EB17 /* DeviceSetupDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DEV00B2EEB34EA0073EB17 /* DeviceSetupDesign.swift */; };
+		81DEV00E2EEB34EA0073EB18 /* DeviceSetupBluetoothScanPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DEV00D2EEB34EA0073EB18 /* DeviceSetupBluetoothScanPulse.swift */; };
+		81DSGN012EEB34EA0073EB20 /* WorkoutDesignComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DSGN002EEB34EA0073EB20 /* WorkoutDesignComponents.swift */; };
+		81FIT0022EEB34EA0073EB11 /* FitFileEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FIT0012EEB34EA0073EB11 /* FitFileEncoder.swift */; };
+		81FIT0042EEB34EA0073EB12 /* WorkoutFitRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FIT0032EEB34EA0073EB12 /* WorkoutFitRecorder.swift */; };
+		81FIT0062EEB34EA0073EB13 /* FitMailComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FIT0052EEB34EA0073EB13 /* FitMailComposer.swift */; };
+		81HUB0012EEB34EA0073EB99 /* HomeHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81HUB0002EEB34EA0073EB99 /* HomeHubView.swift */; };
+		81KBG012EEB34EA0073EB22 /* KayakScreenBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81KBG002EEB34EA0073EB22 /* KayakScreenBackground.swift */; };
+		81PVP0012EEB34EA0073EB01 /* AvatarPvPModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81PVP0002EEB34EA0073EB01 /* AvatarPvPModels.swift */; };
+		81PVP0032EEB34EA0073EB02 /* AvatarPvPSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81PVP0022EEB34EA0073EB02 /* AvatarPvPSessionManager.swift */; };
+		81PVP0052EEB34EA0073EB03 /* AvatarModeToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81PVP0042EEB34EA0073EB03 /* AvatarModeToggle.swift */; };
+		81PVP0072EEB34EA0073EB04 /* AvatarMetricsHUDColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81PVP0062EEB34EA0073EB04 /* AvatarMetricsHUDColumn.swift */; };
+		81PVP0092EEB34EA0073EB05 /* AvatarTrainingView+PvP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81PVP0082EEB34EA0073EB05 /* AvatarTrainingView+PvP.swift */; };
+		81PVP00B2EEB34EA0073EB06 /* AvatarPvPWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81PVP00A2EEB34EA0073EB06 /* AvatarPvPWorkoutView.swift */; };
+		81PVP00D2EEB34EA0073EB07 /* AvatarPvPWorkoutView+Metrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81PVP00C2EEB34EA0073EB07 /* AvatarPvPWorkoutView+Metrics.swift */; };
+		81PVP0102EEB34EA0073EB0A /* AvatarPvPConnectionRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81PVP0112EEB34EA0073EB0B /* AvatarPvPConnectionRequestView.swift */; };
+		81VIRT012EEB34EA0073EB20 /* DeviceSetupVirtualAccessPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81VIRT002EEB34EA0073EB20 /* DeviceSetupVirtualAccessPanel.swift */; };
+		971E9D822C54181A00450AF0 /* KaKDestination+Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971E9D812C54181A00450AF0 /* KaKDestination+Auth.swift */; };
+		971E9D872C54F01700450AF0 /* KakViewData+SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971E9D862C54F01700450AF0 /* KakViewData+SideMenu.swift */; };
+		9733F00B2D1185CD00954144 /* bgWater.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9733F00A2D1185CD00954144 /* bgWater.gif */; };
+		9733F0D42D17E3E400954144 /* KakViewData+ProgramCreateHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9733F0D32D17E3E400954144 /* KakViewData+ProgramCreateHistory.swift */; };
+		9733F1062D185EE400954144 /* leftSideAvatar.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9733F1052D185EE400954144 /* leftSideAvatar.gif */; };
+		9733F11D2D1B0AD500954144 /* AvatarWorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9733F11C2D1B0AD500954144 /* AvatarWorkoutViewModel.swift */; };
+		9733F12C2D1D9D1800954144 /* BluetoothConnectionDotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9733F12B2D1D9D1800954144 /* BluetoothConnectionDotView.swift */; };
+		9733F18B2D270A4300954144 /* DocumentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9733F18A2D270A4300954144 /* DocumentPicker.swift */; };
+		9733F1E12D27E01500954144 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9733F1E02D27E01500954144 /* AppDelegate.swift */; };
+		9733F1E62D27E25D00954144 /* OrientationLockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9733F1E52D27E25D00954144 /* OrientationLockViewController.swift */; };
+		973BFA952C2DB55B00B0485F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 973BFA932C2DB55B00B0485F /* Localizable.strings */; };
+		973BFA992C2DB6B200B0485F /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973BFA972C2DB6B200B0485F /* Typealias.swift */; };
+		973BFA9D2C2DC85300B0485F /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973BFA9C2C2DC85300B0485F /* Color.swift */; };
+		973BFAA22C2E928500B0485F /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973BFAA12C2E928500B0485F /* ForgotPasswordView.swift */; };
+		973BFAA52C2E95AC00B0485F /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973BFAA42C2E95AC00B0485F /* RegistrationView.swift */; };
+		973BFAAB2C2EF78C00B0485F /* KaKDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973BFAAA2C2EF78C00B0485F /* KaKDestination.swift */; };
+		973BFAB12C3422E100B0485F /* SearchDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973BFAB02C3422E100B0485F /* SearchDeviceView.swift */; };
+		973BFAB22C2DC90000B0485F /* LocalizableStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973BFAB32C2DC90000B0485F /* LocalizableStrings.swift */; };
+		9743FA4D2C64FFF6005BFF7C /* ProgressMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9743FA4C2C64FFF6005BFF7C /* ProgressMainView.swift */; };
+		9743FA592C653570005BFF7C /* TrainingLargeSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9743FA582C653570005BFF7C /* TrainingLargeSectionView.swift */; };
+		9743FA5B2C653A06005BFF7C /* TrainingMediumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9743FA5A2C653A06005BFF7C /* TrainingMediumView.swift */; };
+		9743FA5E2C653D7A005BFF7C /* TrainingSmallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9743FA5D2C653D7A005BFF7C /* TrainingSmallView.swift */; };
+		9743FA662C733537005BFF7C /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9743FA652C733537005BFF7C /* ForgotPasswordViewModel.swift */; };
+		9743FA6C2C73696D005BFF7C /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9743FA6B2C73696D005BFF7C /* ResetPasswordView.swift */; };
+		9743FA6F2C736A65005BFF7C /* ResetPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9743FA6E2C736A65005BFF7C /* ResetPasswordViewModel.swift */; };
+		9743FA7F2C75E80F005BFF7C /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9743FA7E2C75E80F005BFF7C /* HistoryViewModel.swift */; };
+		9743FA822C75EBAD005BFF7C /* KakViewData+History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9743FA812C75EBAD005BFF7C /* KakViewData+History.swift */; };
+		9743FA952C86D4AC005BFF7C /* ProgrammableTrainingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9743FA942C86D4AC005BFF7C /* ProgrammableTrainingCell.swift */; };
+		9743FA9E2C86FA44005BFF7C /* AddProgrammableTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9743FA9D2C86FA44005BFF7C /* AddProgrammableTraining.swift */; };
+		9743FAA92C8841EB005BFF7C /* AddProgrammableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9743FAA82C8841EB005BFF7C /* AddProgrammableCell.swift */; };
+		9743FAB32C88D57C005BFF7C /* EditProgrammableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9743FAB22C88D57C005BFF7C /* EditProgrammableCell.swift */; };
+		9743FAC32C8B4671005BFF7C /* KakViewData+QuickStart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9743FAC22C8B4671005BFF7C /* KakViewData+QuickStart.swift */; };
+		9743FAC62C8C149C005BFF7C /* ImageBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9743FAC52C8C149C005BFF7C /* ImageBackgroundView.swift */; };
+		9743FACB2C917BC7005BFF7C /* AlertWithAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9743FACA2C917BC7005BFF7C /* AlertWithAction.swift */; };
+		9743FACE2C944940005BFF7C /* KakViewData+AddProgramTraining.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9743FACD2C944940005BFF7C /* KakViewData+AddProgramTraining.swift */; };
+		9743FAE12C944D38005BFF7C /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9743FAE02C944D38005BFF7C /* RealmSwift */; };
+		9743FAE52C944DF2005BFF7C /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 9743FAE02C944D38005BFF7C /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		9743FAE92C9450C4005BFF7C /* KakViewData+WorkoutItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9743FAE82C9450C4005BFF7C /* KakViewData+WorkoutItem.swift */; };
+		9754EE5A2C2D75FD00B34FE4 /* Font+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9754EE592C2D75FD00B34FE4 /* Font+Ext.swift */; };
+		9754EE5D2C2D7C2C00B34FE4 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9754EE5C2C2D7C2C00B34FE4 /* Style.swift */; };
+		9754EE652C2D7EC300B34FE4 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9754EE5E2C2D7EC300B34FE4 /* NotoSans-Bold.ttf */; };
+		9754EE662C2D7EC300B34FE4 /* NotoSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9754EE5F2C2D7EC300B34FE4 /* NotoSans-ExtraBold.ttf */; };
+		9754EE672C2D7EC300B34FE4 /* NotoSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9754EE602C2D7EC300B34FE4 /* NotoSans-Light.ttf */; };
+		9754EE682C2D7EC300B34FE4 /* NotoSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9754EE612C2D7EC300B34FE4 /* NotoSans-Medium.ttf */; };
+		9754EE692C2D7EC300B34FE4 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9754EE622C2D7EC300B34FE4 /* NotoSans-Regular.ttf */; };
+		9754EE6A2C2D7EC300B34FE4 /* NotoSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9754EE632C2D7EC300B34FE4 /* NotoSans-SemiBold.ttf */; };
+		9754EE6D2C2D833A00B34FE4 /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9754EE6C2C2D833A00B34FE4 /* View+Ext.swift */; };
+		9761976D2C49076700610292 /* BluetoothMessageProtocol in Frameworks */ = {isa = PBXBuildFile; productRef = 9761976C2C49076700610292 /* BluetoothMessageProtocol */; };
+		976BEEA12C2345EC00CE8EB9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BEEA02C2345EC00CE8EB9 /* LoginView.swift */; };
+		977C9FF22C3BA6340094A0F0 /* SelectMachineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977C9FF12C3BA6340094A0F0 /* SelectMachineView.swift */; };
+		977C9FF82C3BB9AA0094A0F0 /* KakViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977C9FF72C3BB9AA0094A0F0 /* KakViewData.swift */; };
+		977C9FFC2C3BB9DF0094A0F0 /* KAkViewData+SelectMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977C9FFB2C3BB9DF0094A0F0 /* KAkViewData+SelectMachine.swift */; };
+		977C9FFE2C3BBCFE0094A0F0 /* Image+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977C9FFD2C3BBCFE0094A0F0 /* Image+Extenstion.swift */; };
+		977CA0002C3BBF150094A0F0 /* SelectMachine+Mocked.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977C9FFF2C3BBF150094A0F0 /* SelectMachine+Mocked.swift */; };
+		977CA0052C3BD0FB0094A0F0 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977CA0042C3BD0FB0094A0F0 /* Action.swift */; };
+		977CA0122C3BDDEC0094A0F0 /* MachineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977CA0112C3BDDEC0094A0F0 /* MachineView.swift */; };
+		977CA0162C3C0AA50094A0F0 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977CA0152C3C0AA50094A0F0 /* DashboardView.swift */; };
+		977CA02A2C3DB6EF0094A0F0 /* ProgramHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977CA0292C3DB6EF0094A0F0 /* ProgramHistoryCell.swift */; };
+		977CA02C2C3DB93F0094A0F0 /* Double+Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977CA02B2C3DB93F0094A0F0 /* Double+Screen.swift */; };
+		977CA0362C3E79460094A0F0 /* QuickStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977CA0352C3E79460094A0F0 /* QuickStartView.swift */; };
+		977CA03F2C3ED0210094A0F0 /* QuickStartTrainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977CA03E2C3ED0210094A0F0 /* QuickStartTrainingView.swift */; };
+		978529B52CFB7EA3005B3083 /* AvatarWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978529B42CFB7EA3005B3083 /* AvatarWorkoutView.swift */; };
+		978529FB2CFB971F005B3083 /* KayakSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978529FA2CFB971F005B3083 /* KayakSwiftUIView.swift */; };
+		97852A172CFCBD1D005B3083 /* ProgrammableWorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97852A162CFCBD1D005B3083 /* ProgrammableWorkoutViewModel.swift */; };
+		97852A522D007543005B3083 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 97852A512D007543005B3083 /* SDWebImageSwiftUI */; };
+		97852B252D08915A005B3083 /* rightSideAvatar.gif in Resources */ = {isa = PBXBuildFile; fileRef = 97852B242D08915A005B3083 /* rightSideAvatar.gif */; };
+		97852B662D0C71A7005B3083 /* AlertAvatarExitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97852B652D0C71A7005B3083 /* AlertAvatarExitView.swift */; };
+		9787626C2C4E999C00F6CE0C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9787626B2C4E999C00F6CE0C /* HomeView.swift */; };
+		978762742C4EA3A400F6CE0C /* KakViewData+Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978762732C4EA3A400F6CE0C /* KakViewData+Tab.swift */; };
+		978762812C52CD0600F6CE0C /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9787627E2C52CD0600F6CE0C /* SideMenu.swift */; };
+		978762822C52CD0600F6CE0C /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9787627F2C52CD0600F6CE0C /* SideMenuView.swift */; };
+		978762852C52CFE500F6CE0C /* MainTabbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978762842C52CFE500F6CE0C /* MainTabbedView.swift */; };
+		9787628F2C53A73200F6CE0C /* CoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9787628C2C53A73200F6CE0C /* CoordinatorView.swift */; };
+		978762902C53A73200F6CE0C /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9787628D2C53A73200F6CE0C /* Coordinator.swift */; };
+		978762912C53A73200F6CE0C /* AppPages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9787628E2C53A73200F6CE0C /* AppPages.swift */; };
+		978762992C53B3E100F6CE0C /* AppRootManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978762982C53B3E100F6CE0C /* AppRootManager.swift */; };
+		9787629E2C53BA9D00F6CE0C /* ProgrammableTrainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9787629D2C53BA9D00F6CE0C /* ProgrammableTrainingView.swift */; };
+		978762A12C53BAB900F6CE0C /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978762A02C53BAB900F6CE0C /* HistoryView.swift */; };
+		978762A32C53BACF00F6CE0C /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978762A22C53BACF00F6CE0C /* VideoView.swift */; };
+		97A5DBE22CE27CE7004F3311 /* EditProgrammableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A5DBE12CE27CE7004F3311 /* EditProgrammableView.swift */; };
+		97CBF4E82C5551DE0025648F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97CBF4E72C5551DE0025648F /* Launch Screen.storyboard */; };
+		97CBF4ED2C5553F30025648F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CBF4EC2C5553F30025648F /* ContentView.swift */; };
+		97CBF4F02C5554480025648F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CBF4EF2C5554480025648F /* LoginViewModel.swift */; };
+		97CBF4F22C5555160025648F /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CBF4F12C5555160025648F /* RegisterViewModel.swift */; };
+		97CBF4F82C555A680025648F /* ServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CBF4F52C555A680025648F /* ServiceProtocol.swift */; };
+		97CBF4F92C555A680025648F /* Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CBF4F62C555A680025648F /* Wrapper.swift */; };
+		97CBF4FA2C555A680025648F /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CBF4F72C555A680025648F /* ServiceManager.swift */; };
+		97CBF4FC2C555B380025648F /* KakViewData+Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CBF4FB2C555B380025648F /* KakViewData+Login.swift */; };
+		97CBF5012C5685430025648F /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CBF5002C5685430025648F /* AlertView.swift */; };
+		97CBF50F2C57824C0025648F /* KakViewData+Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97CBF50E2C57824C0025648F /* KakViewData+Register.swift */; };
+		97FA53B02C2208160027AFC8 /* KayakApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FA53AF2C2208160027AFC8 /* KayakApp.swift */; };
+		97FA53B42C2208180027AFC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97FA53B32C2208180027AFC8 /* Assets.xcassets */; };
+		97FA53B72C2208180027AFC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97FA53B62C2208180027AFC8 /* Preview Assets.xcassets */; };
+		97FA53C12C2208180027AFC8 /* KayakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FA53C02C2208180027AFC8 /* KayakTests.swift */; };
+		97FA53CB2C2208180027AFC8 /* KayakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FA53CA2C2208180027AFC8 /* KayakUITests.swift */; };
+		97FA53CD2C2208180027AFC8 /* KayakUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FA53CC2C2208180027AFC8 /* KayakUITestsLaunchTests.swift */; };
+		97FD215B2CA2CEDA00BCF9A4 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FD215A2CA2CEDA00BCF9A4 /* BluetoothManager.swift */; };
+		97FD21632CB5227400BCF9A4 /* ProgrammableWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FD21622CB5227400BCF9A4 /* ProgrammableWorkoutView.swift */; };
+		97FD21662CB6AF9000BCF9A4 /* AddProgramTrainingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FD21652CB6AF9000BCF9A4 /* AddProgramTrainingViewModel.swift */; };
+		97FD216D2CC2385300BCF9A4 /* ExportAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FD216C2CC2385300BCF9A4 /* ExportAlertView.swift */; };
+		97FD21732CC23F9C00BCF9A4 /* AvatarTrainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FD21722CC23F9C00BCF9A4 /* AvatarTrainingView.swift */; };
+		97FD21752CE0E1FB00BCF9A4 /* Migrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FD21742CE0E1FB00BCF9A4 /* Migrator.swift */; };
+		97FD21782CE1AE8B00BCF9A4 /* ProgrammableTrainingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FD21772CE1AE8B00BCF9A4 /* ProgrammableTrainingViewModel.swift */; };
+		9A19A3022D5519D000000003 /* HomeBottomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A19A3012D5519D000000003 /* HomeBottomTabBar.swift */; };
+		AA01FBC12C88D57C005BFF7C /* ProgrammableFormControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01FBC02C88D57C005BFF7C /* ProgrammableFormControls.swift */; };
+		BEBA00000000000000000002 /* BebasNeue-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEBA00000000000000000001 /* BebasNeue-Regular.ttf */; };
+		D6E956D8302E769D0091DF29 /* sprite_1_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = D6E956D7302E769D0091DF29 /* sprite_1_1.gif */; };
+		D6E956DC302E76F70091DF29 /* sprite_1_0.gif in Resources */ = {isa = PBXBuildFile; fileRef = D6E956DB302E76F70091DF29 /* sprite_1_0.gif */; };
+		FE01B07B0BAD2A14EBCCAFE0 /* AvatarWorkoutView+BotModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE01B07B0BAD2A14EBCCAFE1 /* AvatarWorkoutView+BotModel.swift */; };
+		FE01B07C0BAD2A14EBCCAFE2 /* AvatarTrainingView+DistanceMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE01B07C0BAD2A14EBCCAFE3 /* AvatarTrainingView+DistanceMenu.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97FA53BD2C2208180027AFC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97FA53A42C2208160027AFC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97FA53AB2C2208160027AFC8;
+			remoteInfo = Kayak;
+		};
+		97FA53C72C2208180027AFC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97FA53A42C2208160027AFC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97FA53AB2C2208160027AFC8;
+			remoteInfo = Kayak;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9743FADB2C944BF4005BFF7C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9743FAE52C944DF2005BFF7C /* RealmSwift in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		817AEDE22EEB34EA0073EBA6 /* BluetoothManager+Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BluetoothManager+Timer.swift"; sourceTree = "<group>"; };
+		81AUTH002EEB34EA0073EB30 /* AuthDesignComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthDesignComponents.swift; sourceTree = "<group>"; };
+		81AUTHF12EEB34EA0073EB40 /* BricolageGrotesque-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BricolageGrotesque-Regular.ttf"; sourceTree = "<group>"; };
+		81BLE0002EEB34EA0073EB01 /* BLEConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEConstants.swift; sourceTree = "<group>"; };
+		81BLE0022EEB34EA0073EB02 /* RowingMetricsParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowingMetricsParser.swift; sourceTree = "<group>"; };
+		81BLE0042EEB34EA0073EB03 /* BleMetricsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleMetricsStore.swift; sourceTree = "<group>"; };
+		81BLE0062EEB34EA0073EB04 /* BleMetricsDisplaySync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleMetricsDisplaySync.swift; sourceTree = "<group>"; };
+		81BLE0082EEB34EA0073EB05 /* SessionPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionPreferences.swift; sourceTree = "<group>"; };
+		81BLE00A2EEB34EA0073EB06 /* MockRowingMetricsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockRowingMetricsProvider.swift; sourceTree = "<group>"; };
+		81DEV0002EEB34EA0073EB10 /* DeviceSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSetupView.swift; sourceTree = "<group>"; };
+		81DEV0032EEB34EA0073EB12 /* DeviceSetupMachineTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSetupMachineTile.swift; sourceTree = "<group>"; };
+		81DEV0052EEB34EA0073EB13 /* DeviceSetupModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSetupModels.swift; sourceTree = "<group>"; };
+		81DEV0072EEB34EA0073EB14 /* DeviceSetupView+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DeviceSetupView+Actions.swift"; sourceTree = "<group>"; };
+		81DEV00B2EEB34EA0073EB17 /* DeviceSetupDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSetupDesign.swift; sourceTree = "<group>"; };
+		81DEV00D2EEB34EA0073EB18 /* DeviceSetupBluetoothScanPulse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSetupBluetoothScanPulse.swift; sourceTree = "<group>"; };
+		81DSGN002EEB34EA0073EB20 /* WorkoutDesignComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDesignComponents.swift; sourceTree = "<group>"; };
+		81FIT0012EEB34EA0073EB11 /* FitFileEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitFileEncoder.swift; sourceTree = "<group>"; };
+		81FIT0032EEB34EA0073EB12 /* WorkoutFitRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutFitRecorder.swift; sourceTree = "<group>"; };
+		81FIT0052EEB34EA0073EB13 /* FitMailComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitMailComposer.swift; sourceTree = "<group>"; };
+		81HUB0002EEB34EA0073EB99 /* HomeHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHubView.swift; sourceTree = "<group>"; };
+		81KBG002EEB34EA0073EB22 /* KayakScreenBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayakScreenBackground.swift; sourceTree = "<group>"; };
+		81PVP0002EEB34EA0073EB01 /* AvatarPvPModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPvPModels.swift; sourceTree = "<group>"; };
+		81PVP0022EEB34EA0073EB02 /* AvatarPvPSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPvPSessionManager.swift; sourceTree = "<group>"; };
+		81PVP0042EEB34EA0073EB03 /* AvatarModeToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarModeToggle.swift; sourceTree = "<group>"; };
+		81PVP0062EEB34EA0073EB04 /* AvatarMetricsHUDColumn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarMetricsHUDColumn.swift; sourceTree = "<group>"; };
+		81PVP0082EEB34EA0073EB05 /* AvatarTrainingView+PvP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AvatarTrainingView+PvP.swift"; sourceTree = "<group>"; };
+		81PVP00A2EEB34EA0073EB06 /* AvatarPvPWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPvPWorkoutView.swift; sourceTree = "<group>"; };
+		81PVP00C2EEB34EA0073EB07 /* AvatarPvPWorkoutView+Metrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AvatarPvPWorkoutView+Metrics.swift"; sourceTree = "<group>"; };
+		81PVP0112EEB34EA0073EB0B /* AvatarPvPConnectionRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPvPConnectionRequestView.swift; sourceTree = "<group>"; };
+		81VIRT002EEB34EA0073EB20 /* DeviceSetupVirtualAccessPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSetupVirtualAccessPanel.swift; sourceTree = "<group>"; };
+		971E9D812C54181A00450AF0 /* KaKDestination+Auth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KaKDestination+Auth.swift"; sourceTree = "<group>"; };
+		971E9D862C54F01700450AF0 /* KakViewData+SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KakViewData+SideMenu.swift"; sourceTree = "<group>"; };
+		9733F00A2D1185CD00954144 /* bgWater.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bgWater.gif; sourceTree = "<group>"; };
+		9733F0D32D17E3E400954144 /* KakViewData+ProgramCreateHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KakViewData+ProgramCreateHistory.swift"; sourceTree = "<group>"; };
+		9733F1052D185EE400954144 /* leftSideAvatar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = leftSideAvatar.gif; sourceTree = "<group>"; };
+		9733F11C2D1B0AD500954144 /* AvatarWorkoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarWorkoutViewModel.swift; sourceTree = "<group>"; };
+		9733F12B2D1D9D1800954144 /* BluetoothConnectionDotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothConnectionDotView.swift; sourceTree = "<group>"; };
+		9733F18A2D270A4300954144 /* DocumentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPicker.swift; sourceTree = "<group>"; };
+		9733F1A62D2721A400954144 /* Kayak.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kayak.entitlements; sourceTree = "<group>"; };
+		9733F1E02D27E01500954144 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9733F1E52D27E25D00954144 /* OrientationLockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationLockViewController.swift; sourceTree = "<group>"; };
+		973BFA942C2DB55B00B0485F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		973BFA972C2DB6B200B0485F /* Typealias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
+		973BFA9C2C2DC85300B0485F /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		973BFAA12C2E928500B0485F /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		973BFAA42C2E95AC00B0485F /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		973BFAAA2C2EF78C00B0485F /* KaKDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaKDestination.swift; sourceTree = "<group>"; };
+		973BFAB02C3422E100B0485F /* SearchDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDeviceView.swift; sourceTree = "<group>"; };
+		973BFAB32C2DC90000B0485F /* LocalizableStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableStrings.swift; sourceTree = "<group>"; };
+		9743FA4C2C64FFF6005BFF7C /* ProgressMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressMainView.swift; sourceTree = "<group>"; };
+		9743FA582C653570005BFF7C /* TrainingLargeSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingLargeSectionView.swift; sourceTree = "<group>"; };
+		9743FA5A2C653A06005BFF7C /* TrainingMediumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingMediumView.swift; sourceTree = "<group>"; };
+		9743FA5D2C653D7A005BFF7C /* TrainingSmallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingSmallView.swift; sourceTree = "<group>"; };
+		9743FA652C733537005BFF7C /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
+		9743FA6B2C73696D005BFF7C /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
+		9743FA6E2C736A65005BFF7C /* ResetPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewModel.swift; sourceTree = "<group>"; };
+		9743FA7E2C75E80F005BFF7C /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		9743FA812C75EBAD005BFF7C /* KakViewData+History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KakViewData+History.swift"; sourceTree = "<group>"; };
+		9743FA942C86D4AC005BFF7C /* ProgrammableTrainingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammableTrainingCell.swift; sourceTree = "<group>"; };
+		9743FA9D2C86FA44005BFF7C /* AddProgrammableTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProgrammableTraining.swift; sourceTree = "<group>"; };
+		9743FAA82C8841EB005BFF7C /* AddProgrammableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProgrammableCell.swift; sourceTree = "<group>"; };
+		9743FAB22C88D57C005BFF7C /* EditProgrammableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProgrammableCell.swift; sourceTree = "<group>"; };
+		9743FAC22C8B4671005BFF7C /* KakViewData+QuickStart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KakViewData+QuickStart.swift"; sourceTree = "<group>"; };
+		9743FAC52C8C149C005BFF7C /* ImageBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageBackgroundView.swift; sourceTree = "<group>"; };
+		9743FACA2C917BC7005BFF7C /* AlertWithAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertWithAction.swift; sourceTree = "<group>"; };
+		9743FACD2C944940005BFF7C /* KakViewData+AddProgramTraining.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KakViewData+AddProgramTraining.swift"; sourceTree = "<group>"; };
+		9743FAE82C9450C4005BFF7C /* KakViewData+WorkoutItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KakViewData+WorkoutItem.swift"; sourceTree = "<group>"; };
+		9754EE592C2D75FD00B34FE4 /* Font+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Ext.swift"; sourceTree = "<group>"; };
+		9754EE5C2C2D7C2C00B34FE4 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		9754EE5E2C2D7EC300B34FE4 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		9754EE5F2C2D7EC300B34FE4 /* NotoSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		9754EE602C2D7EC300B34FE4 /* NotoSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Light.ttf"; sourceTree = "<group>"; };
+		9754EE612C2D7EC300B34FE4 /* NotoSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Medium.ttf"; sourceTree = "<group>"; };
+		9754EE622C2D7EC300B34FE4 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		9754EE632C2D7EC300B34FE4 /* NotoSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		9754EE6B2C2D7F9F00B34FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9754EE6C2C2D833A00B34FE4 /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
+		976BEEA02C2345EC00CE8EB9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		977C9FF12C3BA6340094A0F0 /* SelectMachineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMachineView.swift; sourceTree = "<group>"; };
+		977C9FF72C3BB9AA0094A0F0 /* KakViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakViewData.swift; sourceTree = "<group>"; };
+		977C9FFB2C3BB9DF0094A0F0 /* KAkViewData+SelectMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KAkViewData+SelectMachine.swift"; sourceTree = "<group>"; };
+		977C9FFD2C3BBCFE0094A0F0 /* Image+Extenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extenstion.swift"; sourceTree = "<group>"; };
+		977C9FFF2C3BBF150094A0F0 /* SelectMachine+Mocked.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SelectMachine+Mocked.swift"; sourceTree = "<group>"; };
+		977CA0042C3BD0FB0094A0F0 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		977CA0112C3BDDEC0094A0F0 /* MachineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineView.swift; sourceTree = "<group>"; };
+		977CA0152C3C0AA50094A0F0 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		977CA0292C3DB6EF0094A0F0 /* ProgramHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramHistoryCell.swift; sourceTree = "<group>"; };
+		977CA02B2C3DB93F0094A0F0 /* Double+Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Screen.swift"; sourceTree = "<group>"; };
+		977CA0352C3E79460094A0F0 /* QuickStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickStartView.swift; sourceTree = "<group>"; };
+		977CA03E2C3ED0210094A0F0 /* QuickStartTrainingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickStartTrainingView.swift; sourceTree = "<group>"; };
+		978529B42CFB7EA3005B3083 /* AvatarWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarWorkoutView.swift; sourceTree = "<group>"; };
+		978529FA2CFB971F005B3083 /* KayakSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayakSwiftUIView.swift; sourceTree = "<group>"; };
+		97852A162CFCBD1D005B3083 /* ProgrammableWorkoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammableWorkoutViewModel.swift; sourceTree = "<group>"; };
+		97852B242D08915A005B3083 /* rightSideAvatar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = rightSideAvatar.gif; sourceTree = "<group>"; };
+		97852B652D0C71A7005B3083 /* AlertAvatarExitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertAvatarExitView.swift; sourceTree = "<group>"; };
+		9787626B2C4E999C00F6CE0C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		978762732C4EA3A400F6CE0C /* KakViewData+Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KakViewData+Tab.swift"; sourceTree = "<group>"; };
+		9787627E2C52CD0600F6CE0C /* SideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		9787627F2C52CD0600F6CE0C /* SideMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		978762842C52CFE500F6CE0C /* MainTabbedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabbedView.swift; sourceTree = "<group>"; };
+		9787628C2C53A73200F6CE0C /* CoordinatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorView.swift; sourceTree = "<group>"; };
+		9787628D2C53A73200F6CE0C /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		9787628E2C53A73200F6CE0C /* AppPages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppPages.swift; sourceTree = "<group>"; };
+		978762982C53B3E100F6CE0C /* AppRootManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRootManager.swift; sourceTree = "<group>"; };
+		9787629D2C53BA9D00F6CE0C /* ProgrammableTrainingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammableTrainingView.swift; sourceTree = "<group>"; };
+		978762A02C53BAB900F6CE0C /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		978762A22C53BACF00F6CE0C /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		97A5DBE12CE27CE7004F3311 /* EditProgrammableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProgrammableView.swift; sourceTree = "<group>"; };
+		97CBF4E72C5551DE0025648F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		97CBF4EC2C5553F30025648F /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		97CBF4EF2C5554480025648F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		97CBF4F12C5555160025648F /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		97CBF4F52C555A680025648F /* ServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceProtocol.swift; sourceTree = "<group>"; };
+		97CBF4F62C555A680025648F /* Wrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wrapper.swift; sourceTree = "<group>"; };
+		97CBF4F72C555A680025648F /* ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		97CBF4FB2C555B380025648F /* KakViewData+Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KakViewData+Login.swift"; sourceTree = "<group>"; };
+		97CBF5002C5685430025648F /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		97CBF50E2C57824C0025648F /* KakViewData+Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KakViewData+Register.swift"; sourceTree = "<group>"; };
+		97FA53AC2C2208160027AFC8 /* Kayak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kayak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97FA53AF2C2208160027AFC8 /* KayakApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayakApp.swift; sourceTree = "<group>"; };
+		97FA53B32C2208180027AFC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97FA53B62C2208180027AFC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		97FA53BC2C2208180027AFC8 /* KayakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KayakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97FA53C02C2208180027AFC8 /* KayakTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayakTests.swift; sourceTree = "<group>"; };
+		97FA53C62C2208180027AFC8 /* KayakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KayakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97FA53CA2C2208180027AFC8 /* KayakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayakUITests.swift; sourceTree = "<group>"; };
+		97FA53CC2C2208180027AFC8 /* KayakUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KayakUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		97FD215A2CA2CEDA00BCF9A4 /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		97FD21622CB5227400BCF9A4 /* ProgrammableWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammableWorkoutView.swift; sourceTree = "<group>"; };
+		97FD21652CB6AF9000BCF9A4 /* AddProgramTrainingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProgramTrainingViewModel.swift; sourceTree = "<group>"; };
+		97FD216C2CC2385300BCF9A4 /* ExportAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportAlertView.swift; sourceTree = "<group>"; };
+		97FD21722CC23F9C00BCF9A4 /* AvatarTrainingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarTrainingView.swift; sourceTree = "<group>"; };
+		97FD21742CE0E1FB00BCF9A4 /* Migrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Migrator.swift; sourceTree = "<group>"; };
+		97FD21772CE1AE8B00BCF9A4 /* ProgrammableTrainingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammableTrainingViewModel.swift; sourceTree = "<group>"; };
+		9A19A3012D5519D000000003 /* HomeBottomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeBottomTabBar.swift; sourceTree = "<group>"; };
+		AA01FBC02C88D57C005BFF7C /* ProgrammableFormControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammableFormControls.swift; sourceTree = "<group>"; };
+		BEBA00000000000000000001 /* BebasNeue-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BebasNeue-Regular.ttf"; sourceTree = "<group>"; };
+		D6E956D7302E769D0091DF29 /* sprite_1_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sprite_1_1.gif; sourceTree = "<group>"; };
+		D6E956DB302E76F70091DF29 /* sprite_1_0.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sprite_1_0.gif; sourceTree = "<group>"; };
+		FE01B07B0BAD2A14EBCCAFE1 /* AvatarWorkoutView+BotModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AvatarWorkoutView+BotModel.swift"; sourceTree = "<group>"; };
+		FE01B07C0BAD2A14EBCCAFE3 /* AvatarTrainingView+DistanceMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AvatarTrainingView+DistanceMenu.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97FA53A92C2208160027AFC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97852A522D007543005B3083 /* SDWebImageSwiftUI in Frameworks */,
+				9743FAE12C944D38005BFF7C /* RealmSwift in Frameworks */,
+				9761976D2C49076700610292 /* BluetoothMessageProtocol in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97FA53B92C2208180027AFC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97FA53C32C2208180027AFC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81AUTHF02EEB34EA0073EB40 /* BricolageGrotesque */ = {
+			isa = PBXGroup;
+			children = (
+				81AUTHF12EEB34EA0073EB40 /* BricolageGrotesque-Regular.ttf */,
+			);
+			path = BricolageGrotesque;
+			sourceTree = "<group>";
+		};
+		81BLE00C2EEB34EA0073EB07 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				81BLE0002EEB34EA0073EB01 /* BLEConstants.swift */,
+				81BLE0022EEB34EA0073EB02 /* RowingMetricsParser.swift */,
+				81BLE0042EEB34EA0073EB03 /* BleMetricsStore.swift */,
+				81BLE0062EEB34EA0073EB04 /* BleMetricsDisplaySync.swift */,
+				81BLE0082EEB34EA0073EB05 /* SessionPreferences.swift */,
+				81BLE00A2EEB34EA0073EB06 /* MockRowingMetricsProvider.swift */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+		81DEV0022EEB34EA0073EB11 /* DeviceSetup */ = {
+			isa = PBXGroup;
+			children = (
+				81DEV0002EEB34EA0073EB10 /* DeviceSetupView.swift */,
+				81DEV0072EEB34EA0073EB14 /* DeviceSetupView+Actions.swift */,
+				81DEV0032EEB34EA0073EB12 /* DeviceSetupMachineTile.swift */,
+				81DEV0052EEB34EA0073EB13 /* DeviceSetupModels.swift */,
+				81DEV00B2EEB34EA0073EB17 /* DeviceSetupDesign.swift */,
+				81DEV00D2EEB34EA0073EB18 /* DeviceSetupBluetoothScanPulse.swift */,
+				81VIRT002EEB34EA0073EB20 /* DeviceSetupVirtualAccessPanel.swift */,
+			);
+			path = DeviceSetup;
+			sourceTree = "<group>";
+		};
+		81DSGN032EEB34EA0073EB21 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				81KBG002EEB34EA0073EB22 /* KayakScreenBackground.swift */,
+				81DSGN002EEB34EA0073EB20 /* WorkoutDesignComponents.swift */,
+				81PVP0042EEB34EA0073EB03 /* AvatarModeToggle.swift */,
+				81PVP0062EEB34EA0073EB04 /* AvatarMetricsHUDColumn.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		81FIT0002EEB34EA0073EB10 /* Fit */ = {
+			isa = PBXGroup;
+			children = (
+				81FIT0012EEB34EA0073EB11 /* FitFileEncoder.swift */,
+				81FIT0032EEB34EA0073EB12 /* WorkoutFitRecorder.swift */,
+				81FIT0052EEB34EA0073EB13 /* FitMailComposer.swift */,
+			);
+			path = Fit;
+			sourceTree = "<group>";
+		};
+		81PVP00E2EEB34EA0073EB08 /* AvatarPvP */ = {
+			isa = PBXGroup;
+			children = (
+				81PVP0002EEB34EA0073EB01 /* AvatarPvPModels.swift */,
+				81PVP0022EEB34EA0073EB02 /* AvatarPvPSessionManager.swift */,
+			);
+			path = AvatarPvP;
+			sourceTree = "<group>";
+		};
+		973BFA922C2DB52000B0485F /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				973BFA932C2DB55B00B0485F /* Localizable.strings */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		973BFA982C2DB6B200B0485F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				973BFAB32C2DC90000B0485F /* LocalizableStrings.swift */,
+				973BFA972C2DB6B200B0485F /* Typealias.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		973BFA9B2C2DC84700B0485F /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				973BFA9C2C2DC85300B0485F /* Color.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		973BFAA72C2EF77100B0485F /* Routes */ = {
+			isa = PBXGroup;
+			children = (
+				9787628E2C53A73200F6CE0C /* AppPages.swift */,
+				9787628D2C53A73200F6CE0C /* Coordinator.swift */,
+				9787628C2C53A73200F6CE0C /* CoordinatorView.swift */,
+				973BFAAA2C2EF78C00B0485F /* KaKDestination.swift */,
+				978762982C53B3E100F6CE0C /* AppRootManager.swift */,
+				971E9D812C54181A00450AF0 /* KaKDestination+Auth.swift */,
+			);
+			path = Routes;
+			sourceTree = "<group>";
+		};
+		9743FA512C6519B1005BFF7C /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				81AUTH002EEB34EA0073EB30 /* AuthDesignComponents.swift */,
+				976BEEA02C2345EC00CE8EB9 /* LoginView.swift */,
+				973BFAA12C2E928500B0485F /* ForgotPasswordView.swift */,
+				9743FA6B2C73696D005BFF7C /* ResetPasswordView.swift */,
+				973BFAA42C2E95AC00B0485F /* RegistrationView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		9743FA552C653531005BFF7C /* QuickStartTraining */ = {
+			isa = PBXGroup;
+			children = (
+				9743FA572C653544005BFF7C /* Components */,
+				977CA03E2C3ED0210094A0F0 /* QuickStartTrainingView.swift */,
+			);
+			path = QuickStartTraining;
+			sourceTree = "<group>";
+		};
+		9743FA572C653544005BFF7C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9743FA582C653570005BFF7C /* TrainingLargeSectionView.swift */,
+				9743FA5A2C653A06005BFF7C /* TrainingMediumView.swift */,
+				9743FA5D2C653D7A005BFF7C /* TrainingSmallView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9743FA902C86D482005BFF7C /* ProgrammableTraining */ = {
+			isa = PBXGroup;
+			children = (
+				9743FA932C86D491005BFF7C /* Components */,
+				9787629D2C53BA9D00F6CE0C /* ProgrammableTrainingView.swift */,
+			);
+			path = ProgrammableTraining;
+			sourceTree = "<group>";
+		};
+		9743FA932C86D491005BFF7C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9743FA942C86D4AC005BFF7C /* ProgrammableTrainingCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9743FAA52C8841BC005BFF7C /* AddProgrammableTraining */ = {
+			isa = PBXGroup;
+			children = (
+				9743FAA72C8841CB005BFF7C /* Components */,
+				9743FA9D2C86FA44005BFF7C /* AddProgrammableTraining.swift */,
+			);
+			path = AddProgrammableTraining;
+			sourceTree = "<group>";
+		};
+		9743FAA72C8841CB005BFF7C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9743FAA82C8841EB005BFF7C /* AddProgrammableCell.swift */,
+				9743FAB22C88D57C005BFF7C /* EditProgrammableCell.swift */,
+				AA01FBC02C88D57C005BFF7C /* ProgrammableFormControls.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9754EE582C2D75E300B34FE4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				977CA0032C3BD0F20094A0F0 /* Helper */,
+				973BFA9B2C2DC84700B0485F /* Color */,
+				9754EE642C2D7EC300B34FE4 /* NotoSans */,
+				81AUTHF02EEB34EA0073EB40 /* BricolageGrotesque */,
+				BEBA00000000000000000003 /* BebasNeue */,
+				9754EE5B2C2D7C1B00B34FE4 /* Font */,
+				9754EE6C2C2D833A00B34FE4 /* View+Ext.swift */,
+				977C9FFD2C3BBCFE0094A0F0 /* Image+Extenstion.swift */,
+				977CA02B2C3DB93F0094A0F0 /* Double+Screen.swift */,
+				97FD21742CE0E1FB00BCF9A4 /* Migrator.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9754EE5B2C2D7C1B00B34FE4 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				9754EE592C2D75FD00B34FE4 /* Font+Ext.swift */,
+				9754EE5C2C2D7C2C00B34FE4 /* Style.swift */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		9754EE642C2D7EC300B34FE4 /* NotoSans */ = {
+			isa = PBXGroup;
+			children = (
+				9754EE5E2C2D7EC300B34FE4 /* NotoSans-Bold.ttf */,
+				9754EE5F2C2D7EC300B34FE4 /* NotoSans-ExtraBold.ttf */,
+				9754EE602C2D7EC300B34FE4 /* NotoSans-Light.ttf */,
+				9754EE612C2D7EC300B34FE4 /* NotoSans-Medium.ttf */,
+				9754EE622C2D7EC300B34FE4 /* NotoSans-Regular.ttf */,
+				9754EE632C2D7EC300B34FE4 /* NotoSans-SemiBold.ttf */,
+			);
+			path = NotoSans;
+			sourceTree = "<group>";
+		};
+		976BEE9F2C2345D600CE8EB9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				81DSGN032EEB34EA0073EB21 /* Design */,
+				81DEV0022EEB34EA0073EB11 /* DeviceSetup */,
+				9743FA512C6519B1005BFF7C /* Authentication */,
+				978762802C52CD0600F6CE0C /* SideMenu+TabBar */,
+				973BFAB02C3422E100B0485F /* SearchDeviceView.swift */,
+				977CA00A2C3BDC1B0094A0F0 /* SelectMachine */,
+				977CA0262C3DB6540094A0F0 /* Dashboard */,
+				977CA0352C3E79460094A0F0 /* QuickStartView.swift */,
+				9743FA4C2C64FFF6005BFF7C /* ProgressMainView.swift */,
+				9743FA552C653531005BFF7C /* QuickStartTraining */,
+				9743FA902C86D482005BFF7C /* ProgrammableTraining */,
+				9743FAA52C8841BC005BFF7C /* AddProgrammableTraining */,
+				97A5DBE12CE27CE7004F3311 /* EditProgrammableView.swift */,
+				97FD21622CB5227400BCF9A4 /* ProgrammableWorkoutView.swift */,
+				978762A02C53BAB900F6CE0C /* HistoryView.swift */,
+				97FD21722CC23F9C00BCF9A4 /* AvatarTrainingView.swift */,
+				81PVP0082EEB34EA0073EB05 /* AvatarTrainingView+PvP.swift */,
+				81PVP0112EEB34EA0073EB0B /* AvatarPvPConnectionRequestView.swift */,
+				978529B42CFB7EA3005B3083 /* AvatarWorkoutView.swift */,
+				81PVP00A2EEB34EA0073EB06 /* AvatarPvPWorkoutView.swift */,
+				81PVP00C2EEB34EA0073EB07 /* AvatarPvPWorkoutView+Metrics.swift */,
+				FE01B07B0BAD2A14EBCCAFE1 /* AvatarWorkoutView+BotModel.swift */,
+				FE01B07C0BAD2A14EBCCAFE3 /* AvatarTrainingView+DistanceMenu.swift */,
+				978529FA2CFB971F005B3083 /* KayakSwiftUIView.swift */,
+				9733F18A2D270A4300954144 /* DocumentPicker.swift */,
+				978762A22C53BACF00F6CE0C /* VideoView.swift */,
+				97CBF4EC2C5553F30025648F /* ContentView.swift */,
+				97CBF5002C5685430025648F /* AlertView.swift */,
+				9743FACA2C917BC7005BFF7C /* AlertWithAction.swift */,
+				97852B652D0C71A7005B3083 /* AlertAvatarExitView.swift */,
+				97FD216C2CC2385300BCF9A4 /* ExportAlertView.swift */,
+				9743FAC52C8C149C005BFF7C /* ImageBackgroundView.swift */,
+				9733F12B2D1D9D1800954144 /* BluetoothConnectionDotView.swift */,
+				97CBF4E72C5551DE0025648F /* Launch Screen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		977C9FF42C3BB9180094A0F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				977C9FFA2C3BB9BD0094A0F0 /* MockedData */,
+				977C9FF72C3BB9AA0094A0F0 /* KakViewData.swift */,
+				978762732C4EA3A400F6CE0C /* KakViewData+Tab.swift */,
+				971E9D862C54F01700450AF0 /* KakViewData+SideMenu.swift */,
+				977C9FFB2C3BB9DF0094A0F0 /* KAkViewData+SelectMachine.swift */,
+				97CBF4FB2C555B380025648F /* KakViewData+Login.swift */,
+				97CBF50E2C57824C0025648F /* KakViewData+Register.swift */,
+				9743FA812C75EBAD005BFF7C /* KakViewData+History.swift */,
+				9743FAC22C8B4671005BFF7C /* KakViewData+QuickStart.swift */,
+				9743FACD2C944940005BFF7C /* KakViewData+AddProgramTraining.swift */,
+				9743FAE82C9450C4005BFF7C /* KakViewData+WorkoutItem.swift */,
+				9733F0D32D17E3E400954144 /* KakViewData+ProgramCreateHistory.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		977C9FFA2C3BB9BD0094A0F0 /* MockedData */ = {
+			isa = PBXGroup;
+			children = (
+				977C9FFF2C3BBF150094A0F0 /* SelectMachine+Mocked.swift */,
+			);
+			path = MockedData;
+			sourceTree = "<group>";
+		};
+		977CA0032C3BD0F20094A0F0 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				977CA0042C3BD0FB0094A0F0 /* Action.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		977CA00A2C3BDC1B0094A0F0 /* SelectMachine */ = {
+			isa = PBXGroup;
+			children = (
+				977CA00E2C3BDC980094A0F0 /* Components */,
+				977C9FF12C3BA6340094A0F0 /* SelectMachineView.swift */,
+			);
+			path = SelectMachine;
+			sourceTree = "<group>";
+		};
+		977CA00E2C3BDC980094A0F0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				977CA0112C3BDDEC0094A0F0 /* MachineView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		977CA0262C3DB6540094A0F0 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				977CA0282C3DB6700094A0F0 /* Components */,
+				977CA0152C3C0AA50094A0F0 /* DashboardView.swift */,
+				81HUB0002EEB34EA0073EB99 /* HomeHubView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		977CA0282C3DB6700094A0F0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				977CA0292C3DB6EF0094A0F0 /* ProgramHistoryCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		978762802C52CD0600F6CE0C /* SideMenu+TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				978762842C52CFE500F6CE0C /* MainTabbedView.swift */,
+				9787627E2C52CD0600F6CE0C /* SideMenu.swift */,
+				9787627F2C52CD0600F6CE0C /* SideMenuView.swift */,
+				9787626B2C4E999C00F6CE0C /* HomeView.swift */,
+				9A19A3012D5519D000000003 /* HomeBottomTabBar.swift */,
+			);
+			path = "SideMenu+TabBar";
+			sourceTree = "<group>";
+		};
+		97CBF4EE2C5554240025648F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				97CBF4EF2C5554480025648F /* LoginViewModel.swift */,
+				97CBF4F12C5555160025648F /* RegisterViewModel.swift */,
+				9743FA652C733537005BFF7C /* ForgotPasswordViewModel.swift */,
+				9743FA6E2C736A65005BFF7C /* ResetPasswordViewModel.swift */,
+				9743FA7E2C75E80F005BFF7C /* HistoryViewModel.swift */,
+				97FD21772CE1AE8B00BCF9A4 /* ProgrammableTrainingViewModel.swift */,
+				97FD21652CB6AF9000BCF9A4 /* AddProgramTrainingViewModel.swift */,
+				97852A162CFCBD1D005B3083 /* ProgrammableWorkoutViewModel.swift */,
+				9733F11C2D1B0AD500954144 /* AvatarWorkoutViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		97CBF4F42C555A290025648F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				81BLE00C2EEB34EA0073EB07 /* BLE */,
+				81PVP00E2EEB34EA0073EB08 /* AvatarPvP */,
+				81FIT0002EEB34EA0073EB10 /* Fit */,
+				97CBF4F72C555A680025648F /* ServiceManager.swift */,
+				97CBF4F52C555A680025648F /* ServiceProtocol.swift */,
+				97CBF4F62C555A680025648F /* Wrapper.swift */,
+				97FD215A2CA2CEDA00BCF9A4 /* BluetoothManager.swift */,
+				9733F1E02D27E01500954144 /* AppDelegate.swift */,
+				9733F1E52D27E25D00954144 /* OrientationLockViewController.swift */,
+				817AEDE22EEB34EA0073EBA6 /* BluetoothManager+Timer.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		97FA53A32C2208160027AFC8 = {
+			isa = PBXGroup;
+			children = (
+				97FA53AE2C2208160027AFC8 /* Kayak */,
+				97FA53BF2C2208180027AFC8 /* KayakTests */,
+				97FA53C92C2208180027AFC8 /* KayakUITests */,
+				97FA53AD2C2208160027AFC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97FA53AD2C2208160027AFC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97FA53AC2C2208160027AFC8 /* Kayak.app */,
+				97FA53BC2C2208180027AFC8 /* KayakTests.xctest */,
+				97FA53C62C2208180027AFC8 /* KayakUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97FA53AE2C2208160027AFC8 /* Kayak */ = {
+			isa = PBXGroup;
+			children = (
+				D6E956DB302E76F70091DF29 /* sprite_1_0.gif */,
+				D6E956D7302E769D0091DF29 /* sprite_1_1.gif */,
+				9733F1A62D2721A400954144 /* Kayak.entitlements */,
+				97852B242D08915A005B3083 /* rightSideAvatar.gif */,
+				9733F1052D185EE400954144 /* leftSideAvatar.gif */,
+				9733F00A2D1185CD00954144 /* bgWater.gif */,
+				973BFAA72C2EF77100B0485F /* Routes */,
+				973BFA982C2DB6B200B0485F /* Resources */,
+				977C9FF42C3BB9180094A0F0 /* Model */,
+				97CBF4EE2C5554240025648F /* ViewModels */,
+				976BEE9F2C2345D600CE8EB9 /* View */,
+				9754EE582C2D75E300B34FE4 /* Utils */,
+				973BFA922C2DB52000B0485F /* Localizable */,
+				97CBF4F42C555A290025648F /* Services */,
+				97FA53AF2C2208160027AFC8 /* KayakApp.swift */,
+				9754EE6B2C2D7F9F00B34FE4 /* Info.plist */,
+				97FA53B32C2208180027AFC8 /* Assets.xcassets */,
+				97FA53B52C2208180027AFC8 /* Preview Content */,
+			);
+			path = Kayak;
+			sourceTree = "<group>";
+		};
+		97FA53B52C2208180027AFC8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				97FA53B62C2208180027AFC8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		97FA53BF2C2208180027AFC8 /* KayakTests */ = {
+			isa = PBXGroup;
+			children = (
+				97FA53C02C2208180027AFC8 /* KayakTests.swift */,
+			);
+			path = KayakTests;
+			sourceTree = "<group>";
+		};
+		97FA53C92C2208180027AFC8 /* KayakUITests */ = {
+			isa = PBXGroup;
+			children = (
+				97FA53CA2C2208180027AFC8 /* KayakUITests.swift */,
+				97FA53CC2C2208180027AFC8 /* KayakUITestsLaunchTests.swift */,
+			);
+			path = KayakUITests;
+			sourceTree = "<group>";
+		};
+		BEBA00000000000000000003 /* BebasNeue */ = {
+			isa = PBXGroup;
+			children = (
+				BEBA00000000000000000001 /* BebasNeue-Regular.ttf */,
+			);
+			path = BebasNeue;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97FA53AB2C2208160027AFC8 /* Kayak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97FA53D02C2208180027AFC8 /* Build configuration list for PBXNativeTarget "Kayak" */;
+			buildPhases = (
+				97FA53A82C2208160027AFC8 /* Sources */,
+				97FA53A92C2208160027AFC8 /* Frameworks */,
+				97FA53AA2C2208160027AFC8 /* Resources */,
+				9743FADB2C944BF4005BFF7C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				977CA05E2C3F9A470094A0F0 /* PBXTargetDependency */,
+			);
+			name = Kayak;
+			packageProductDependencies = (
+				9761976C2C49076700610292 /* BluetoothMessageProtocol */,
+				9743FAE02C944D38005BFF7C /* RealmSwift */,
+				97852A512D007543005B3083 /* SDWebImageSwiftUI */,
+			);
+			productName = Kayak;
+			productReference = 97FA53AC2C2208160027AFC8 /* Kayak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97FA53BB2C2208180027AFC8 /* KayakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97FA53D32C2208180027AFC8 /* Build configuration list for PBXNativeTarget "KayakTests" */;
+			buildPhases = (
+				97FA53B82C2208180027AFC8 /* Sources */,
+				97FA53B92C2208180027AFC8 /* Frameworks */,
+				97FA53BA2C2208180027AFC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97FA53BE2C2208180027AFC8 /* PBXTargetDependency */,
+			);
+			name = KayakTests;
+			productName = KayakTests;
+			productReference = 97FA53BC2C2208180027AFC8 /* KayakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97FA53C52C2208180027AFC8 /* KayakUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97FA53D62C2208180027AFC8 /* Build configuration list for PBXNativeTarget "KayakUITests" */;
+			buildPhases = (
+				97FA53C22C2208180027AFC8 /* Sources */,
+				97FA53C32C2208180027AFC8 /* Frameworks */,
+				97FA53C42C2208180027AFC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97FA53C82C2208180027AFC8 /* PBXTargetDependency */,
+			);
+			name = KayakUITests;
+			productName = KayakUITests;
+			productReference = 97FA53C62C2208180027AFC8 /* KayakUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97FA53A42C2208160027AFC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					97FA53AB2C2208160027AFC8 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					97FA53BB2C2208180027AFC8 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 97FA53AB2C2208160027AFC8;
+					};
+					97FA53C52C2208180027AFC8 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 97FA53AB2C2208160027AFC8;
+					};
+				};
+			};
+			buildConfigurationList = 97FA53A72C2208160027AFC8 /* Build configuration list for PBXProject "Kayak" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97FA53A32C2208160027AFC8;
+			packageReferences = (
+				97FA53D92C22094E0027AFC8 /* XCRemoteSwiftPackageReference "BluetoothMessageProtocol" */,
+				976BEE9C2C23418500CE8EB9 /* XCRemoteSwiftPackageReference "IOS-CoreBluetooth-Mock" */,
+				977CA05B2C3F99F70094A0F0 /* XCRemoteSwiftPackageReference "SwiftLint" */,
+				9743FADD2C944D38005BFF7C /* XCRemoteSwiftPackageReference "realm-swift" */,
+				97852A502D007543005B3083 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = 97FA53AD2C2208160027AFC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97FA53AB2C2208160027AFC8 /* Kayak */,
+				97FA53BB2C2208180027AFC8 /* KayakTests */,
+				97FA53C52C2208180027AFC8 /* KayakUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97FA53AA2C2208160027AFC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9754EE652C2D7EC300B34FE4 /* NotoSans-Bold.ttf in Resources */,
+				9733F00B2D1185CD00954144 /* bgWater.gif in Resources */,
+				9733F1062D185EE400954144 /* leftSideAvatar.gif in Resources */,
+				9754EE672C2D7EC300B34FE4 /* NotoSans-Light.ttf in Resources */,
+				9754EE6A2C2D7EC300B34FE4 /* NotoSans-SemiBold.ttf in Resources */,
+				9754EE682C2D7EC300B34FE4 /* NotoSans-Medium.ttf in Resources */,
+				973BFA952C2DB55B00B0485F /* Localizable.strings in Resources */,
+				9754EE662C2D7EC300B34FE4 /* NotoSans-ExtraBold.ttf in Resources */,
+				97FA53B72C2208180027AFC8 /* Preview Assets.xcassets in Resources */,
+				D6E956D8302E769D0091DF29 /* sprite_1_1.gif in Resources */,
+				97FA53B42C2208180027AFC8 /* Assets.xcassets in Resources */,
+				97CBF4E82C5551DE0025648F /* Launch Screen.storyboard in Resources */,
+				D6E956DC302E76F70091DF29 /* sprite_1_0.gif in Resources */,
+				97852B252D08915A005B3083 /* rightSideAvatar.gif in Resources */,
+				9754EE692C2D7EC300B34FE4 /* NotoSans-Regular.ttf in Resources */,
+				81AUTHF22EEB34EA0073EB40 /* BricolageGrotesque-Regular.ttf in Resources */,
+				BEBA00000000000000000002 /* BebasNeue-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97FA53BA2C2208180027AFC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97FA53C42C2208180027AFC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97FA53A82C2208160027AFC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				978762742C4EA3A400F6CE0C /* KakViewData+Tab.swift in Sources */,
+				973BFAAB2C2EF78C00B0485F /* KaKDestination.swift in Sources */,
+				9733F12C2D1D9D1800954144 /* BluetoothConnectionDotView.swift in Sources */,
+				9733F0D42D17E3E400954144 /* KakViewData+ProgramCreateHistory.swift in Sources */,
+				9733F1E12D27E01500954144 /* AppDelegate.swift in Sources */,
+				97CBF4ED2C5553F30025648F /* ContentView.swift in Sources */,
+				97CBF4FA2C555A680025648F /* ServiceManager.swift in Sources */,
+				971E9D822C54181A00450AF0 /* KaKDestination+Auth.swift in Sources */,
+				978762822C52CD0600F6CE0C /* SideMenuView.swift in Sources */,
+				9A19A3022D5519D000000003 /* HomeBottomTabBar.swift in Sources */,
+				977CA0162C3C0AA50094A0F0 /* DashboardView.swift in Sources */,
+				81HUB0012EEB34EA0073EB99 /* HomeHubView.swift in Sources */,
+				9743FA6C2C73696D005BFF7C /* ResetPasswordView.swift in Sources */,
+				978762A12C53BAB900F6CE0C /* HistoryView.swift in Sources */,
+				977CA0052C3BD0FB0094A0F0 /* Action.swift in Sources */,
+				97FD21632CB5227400BCF9A4 /* ProgrammableWorkoutView.swift in Sources */,
+				81AUTH012EEB34EA0073EB30 /* AuthDesignComponents.swift in Sources */,
+				976BEEA12C2345EC00CE8EB9 /* LoginView.swift in Sources */,
+				977CA02C2C3DB93F0094A0F0 /* Double+Screen.swift in Sources */,
+				9743FACB2C917BC7005BFF7C /* AlertWithAction.swift in Sources */,
+				9743FACE2C944940005BFF7C /* KakViewData+AddProgramTraining.swift in Sources */,
+				9743FAC32C8B4671005BFF7C /* KakViewData+QuickStart.swift in Sources */,
+				9743FAA92C8841EB005BFF7C /* AddProgrammableCell.swift in Sources */,
+				97852A172CFCBD1D005B3083 /* ProgrammableWorkoutViewModel.swift in Sources */,
+				9733F11D2D1B0AD500954144 /* AvatarWorkoutViewModel.swift in Sources */,
+				97FD21732CC23F9C00BCF9A4 /* AvatarTrainingView.swift in Sources */,
+				97CBF4FC2C555B380025648F /* KakViewData+Login.swift in Sources */,
+				977CA0122C3BDDEC0094A0F0 /* MachineView.swift in Sources */,
+				97CBF4F92C555A680025648F /* Wrapper.swift in Sources */,
+				977C9FF82C3BB9AA0094A0F0 /* KakViewData.swift in Sources */,
+				97A5DBE22CE27CE7004F3311 /* EditProgrammableView.swift in Sources */,
+				971E9D872C54F01700450AF0 /* KakViewData+SideMenu.swift in Sources */,
+				9733F18B2D270A4300954144 /* DocumentPicker.swift in Sources */,
+				97FD21782CE1AE8B00BCF9A4 /* ProgrammableTrainingViewModel.swift in Sources */,
+				978762812C52CD0600F6CE0C /* SideMenu.swift in Sources */,
+				978529FB2CFB971F005B3083 /* KayakSwiftUIView.swift in Sources */,
+				81DEV0012EEB34EA0073EB10 /* DeviceSetupView.swift in Sources */,
+				81DEV0082EEB34EA0073EB14 /* DeviceSetupView+Actions.swift in Sources */,
+				81DEV0042EEB34EA0073EB12 /* DeviceSetupMachineTile.swift in Sources */,
+				81DEV0062EEB34EA0073EB13 /* DeviceSetupModels.swift in Sources */,
+				81DEV00C2EEB34EA0073EB17 /* DeviceSetupDesign.swift in Sources */,
+				81DEV00E2EEB34EA0073EB18 /* DeviceSetupBluetoothScanPulse.swift in Sources */,
+				81VIRT012EEB34EA0073EB20 /* DeviceSetupVirtualAccessPanel.swift in Sources */,
+				81DSGN012EEB34EA0073EB20 /* WorkoutDesignComponents.swift in Sources */,
+				81KBG012EEB34EA0073EB22 /* KayakScreenBackground.swift in Sources */,
+				973BFAB12C3422E100B0485F /* SearchDeviceView.swift in Sources */,
+				9733F1E62D27E25D00954144 /* OrientationLockViewController.swift in Sources */,
+				9754EE5A2C2D75FD00B34FE4 /* Font+Ext.swift in Sources */,
+				81BLE0012EEB34EA0073EB01 /* BLEConstants.swift in Sources */,
+				81BLE0032EEB34EA0073EB02 /* RowingMetricsParser.swift in Sources */,
+				81BLE0052EEB34EA0073EB03 /* BleMetricsStore.swift in Sources */,
+				81BLE0072EEB34EA0073EB04 /* BleMetricsDisplaySync.swift in Sources */,
+				81BLE0092EEB34EA0073EB05 /* SessionPreferences.swift in Sources */,
+				81BLE00B2EEB34EA0073EB06 /* MockRowingMetricsProvider.swift in Sources */,
+				81FIT0022EEB34EA0073EB11 /* FitFileEncoder.swift in Sources */,
+				81FIT0042EEB34EA0073EB12 /* WorkoutFitRecorder.swift in Sources */,
+				81FIT0062EEB34EA0073EB13 /* FitMailComposer.swift in Sources */,
+				97FD215B2CA2CEDA00BCF9A4 /* BluetoothManager.swift in Sources */,
+				97852B662D0C71A7005B3083 /* AlertAvatarExitView.swift in Sources */,
+				973BFA9D2C2DC85300B0485F /* Color.swift in Sources */,
+				97CBF50F2C57824C0025648F /* KakViewData+Register.swift in Sources */,
+				973BFAA52C2E95AC00B0485F /* RegistrationView.swift in Sources */,
+				97CBF4F22C5555160025648F /* RegisterViewModel.swift in Sources */,
+				9754EE6D2C2D833A00B34FE4 /* View+Ext.swift in Sources */,
+				9787626C2C4E999C00F6CE0C /* HomeView.swift in Sources */,
+				97CBF4F02C5554480025648F /* LoginViewModel.swift in Sources */,
+				977C9FFE2C3BBCFE0094A0F0 /* Image+Extenstion.swift in Sources */,
+				9743FA592C653570005BFF7C /* TrainingLargeSectionView.swift in Sources */,
+				977CA03F2C3ED0210094A0F0 /* QuickStartTrainingView.swift in Sources */,
+				9743FA952C86D4AC005BFF7C /* ProgrammableTrainingCell.swift in Sources */,
+				97FD21752CE0E1FB00BCF9A4 /* Migrator.swift in Sources */,
+				977C9FF22C3BA6340094A0F0 /* SelectMachineView.swift in Sources */,
+				978529B52CFB7EA3005B3083 /* AvatarWorkoutView.swift in Sources */,
+				81PVP00B2EEB34EA0073EB06 /* AvatarPvPWorkoutView.swift in Sources */,
+				81PVP00D2EEB34EA0073EB07 /* AvatarPvPWorkoutView+Metrics.swift in Sources */,
+				FE01B07B0BAD2A14EBCCAFE0 /* AvatarWorkoutView+BotModel.swift in Sources */,
+				FE01B07C0BAD2A14EBCCAFE2 /* AvatarTrainingView+DistanceMenu.swift in Sources */,
+				81PVP0092EEB34EA0073EB05 /* AvatarTrainingView+PvP.swift in Sources */,
+				81PVP0102EEB34EA0073EB0A /* AvatarPvPConnectionRequestView.swift in Sources */,
+				81PVP0012EEB34EA0073EB01 /* AvatarPvPModels.swift in Sources */,
+				81PVP0032EEB34EA0073EB02 /* AvatarPvPSessionManager.swift in Sources */,
+				81PVP0052EEB34EA0073EB03 /* AvatarModeToggle.swift in Sources */,
+				81PVP0072EEB34EA0073EB04 /* AvatarMetricsHUDColumn.swift in Sources */,
+				817AEDE32EEB34EA0073EBA6 /* BluetoothManager+Timer.swift in Sources */,
+				97CBF5012C5685430025648F /* AlertView.swift in Sources */,
+				978762992C53B3E100F6CE0C /* AppRootManager.swift in Sources */,
+				9743FAB32C88D57C005BFF7C /* EditProgrammableCell.swift in Sources */,
+				AA01FBC12C88D57C005BFF7C /* ProgrammableFormControls.swift in Sources */,
+				977C9FFC2C3BB9DF0094A0F0 /* KAkViewData+SelectMachine.swift in Sources */,
+				9787628F2C53A73200F6CE0C /* CoordinatorView.swift in Sources */,
+				9743FA5B2C653A06005BFF7C /* TrainingMediumView.swift in Sources */,
+				9743FA9E2C86FA44005BFF7C /* AddProgrammableTraining.swift in Sources */,
+				978762912C53A73200F6CE0C /* AppPages.swift in Sources */,
+				97FD21662CB6AF9000BCF9A4 /* AddProgramTrainingViewModel.swift in Sources */,
+				973BFA992C2DB6B200B0485F /* Typealias.swift in Sources */,
+				973BFAB22C2DC90000B0485F /* LocalizableStrings.swift in Sources */,
+				9787629E2C53BA9D00F6CE0C /* ProgrammableTrainingView.swift in Sources */,
+				9743FA4D2C64FFF6005BFF7C /* ProgressMainView.swift in Sources */,
+				9743FA6F2C736A65005BFF7C /* ResetPasswordViewModel.swift in Sources */,
+				977CA02A2C3DB6EF0094A0F0 /* ProgramHistoryCell.swift in Sources */,
+				9743FA7F2C75E80F005BFF7C /* HistoryViewModel.swift in Sources */,
+				9743FAC62C8C149C005BFF7C /* ImageBackgroundView.swift in Sources */,
+				9743FA822C75EBAD005BFF7C /* KakViewData+History.swift in Sources */,
+				9743FA662C733537005BFF7C /* ForgotPasswordViewModel.swift in Sources */,
+				977CA0362C3E79460094A0F0 /* QuickStartView.swift in Sources */,
+				978762902C53A73200F6CE0C /* Coordinator.swift in Sources */,
+				97FD216D2CC2385300BCF9A4 /* ExportAlertView.swift in Sources */,
+				977CA0002C3BBF150094A0F0 /* SelectMachine+Mocked.swift in Sources */,
+				97FA53B02C2208160027AFC8 /* KayakApp.swift in Sources */,
+				978762A32C53BACF00F6CE0C /* VideoView.swift in Sources */,
+				9743FA5E2C653D7A005BFF7C /* TrainingSmallView.swift in Sources */,
+				973BFAA22C2E928500B0485F /* ForgotPasswordView.swift in Sources */,
+				9754EE5D2C2D7C2C00B34FE4 /* Style.swift in Sources */,
+				9743FAE92C9450C4005BFF7C /* KakViewData+WorkoutItem.swift in Sources */,
+				978762852C52CFE500F6CE0C /* MainTabbedView.swift in Sources */,
+				97CBF4F82C555A680025648F /* ServiceProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97FA53B82C2208180027AFC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97FA53C12C2208180027AFC8 /* KayakTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97FA53C22C2208180027AFC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97FA53CD2C2208180027AFC8 /* KayakUITestsLaunchTests.swift in Sources */,
+				97FA53CB2C2208180027AFC8 /* KayakUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		977CA05E2C3F9A470094A0F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 977CA05D2C3F9A470094A0F0 /* SwiftLintBuildToolPlugin */;
+		};
+		97FA53BE2C2208180027AFC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97FA53AB2C2208160027AFC8 /* Kayak */;
+			targetProxy = 97FA53BD2C2208180027AFC8 /* PBXContainerItemProxy */;
+		};
+		97FA53C82C2208180027AFC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97FA53AB2C2208160027AFC8 /* Kayak */;
+			targetProxy = 97FA53C72C2208180027AFC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		973BFA932C2DB55B00B0485F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				973BFA942C2DB55B00B0485F /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97FA53CE2C2208180027AFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97FA53CF2C2208180027AFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97FA53D12C2208180027AFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = Kayak/Kayak.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_ASSET_PATHS = "\"Kayak/Preview Content\"";
+				DEVELOPMENT_TEAM = 9FBW2CKRJX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kayak/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Kayak Pro";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "KayakPro uses Bluetooth to connect to your KayakPro ergometer and stream live workout metrics (distance, speed, stroke rate, pace, calories, watts and heart rate).";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "KayakPro uses Bluetooth to connect to your KayakPro ergometer and stream live workout metrics.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leopard.kayakproapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97FA53D22C2208180027AFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = Kayak/Kayak.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_ASSET_PATHS = "\"Kayak/Preview Content\"";
+				DEVELOPMENT_TEAM = 9FBW2CKRJX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kayak/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Kayak Pro";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "KayakPro uses Bluetooth to connect to your KayakPro ergometer and stream live workout metrics (distance, speed, stroke rate, pace, calories, watts and heart rate).";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "KayakPro uses Bluetooth to connect to your KayakPro ergometer and stream live workout metrics.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leopard.kayakproapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		97FA53D42C2208180027AFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.KayakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kayak.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kayak";
+			};
+			name = Debug;
+		};
+		97FA53D52C2208180027AFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.KayakTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kayak.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kayak";
+			};
+			name = Release;
+		};
+		97FA53D72C2208180027AFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.KayakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kayak;
+			};
+			name = Debug;
+		};
+		97FA53D82C2208180027AFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.KayakUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kayak;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97FA53A72C2208160027AFC8 /* Build configuration list for PBXProject "Kayak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97FA53CE2C2208180027AFC8 /* Debug */,
+				97FA53CF2C2208180027AFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97FA53D02C2208180027AFC8 /* Build configuration list for PBXNativeTarget "Kayak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97FA53D12C2208180027AFC8 /* Debug */,
+				97FA53D22C2208180027AFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97FA53D32C2208180027AFC8 /* Build configuration list for PBXNativeTarget "KayakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97FA53D42C2208180027AFC8 /* Debug */,
+				97FA53D52C2208180027AFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97FA53D62C2208180027AFC8 /* Build configuration list for PBXNativeTarget "KayakUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97FA53D72C2208180027AFC8 /* Debug */,
+				97FA53D82C2208180027AFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9743FADD2C944D38005BFF7C /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 20.0.4;
+			};
+		};
+		976BEE9C2C23418500CE8EB9 /* XCRemoteSwiftPackageReference "IOS-CoreBluetooth-Mock" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/NordicSemiconductor/IOS-CoreBluetooth-Mock.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.18.0;
+			};
+		};
+		977CA05B2C3F99F70094A0F0 /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/SwiftLint.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.55.1;
+			};
+		};
+		97852A502D007543005B3083 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.3;
+			};
+		};
+		97FA53D92C22094E0027AFC8 /* XCRemoteSwiftPackageReference "BluetoothMessageProtocol" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/FitnessKit/BluetoothMessageProtocol";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9743FAE02C944D38005BFF7C /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9743FADD2C944D38005BFF7C /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		9761976C2C49076700610292 /* BluetoothMessageProtocol */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97FA53D92C22094E0027AFC8 /* XCRemoteSwiftPackageReference "BluetoothMessageProtocol" */;
+			productName = BluetoothMessageProtocol;
+		};
+		977CA05D2C3F9A470094A0F0 /* SwiftLintBuildToolPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 977CA05B2C3F99F70094A0F0 /* XCRemoteSwiftPackageReference "SwiftLint" */;
+			productName = "plugin:SwiftLintBuildToolPlugin";
+		};
+		97852A512D007543005B3083 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 97852A502D007543005B3083 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 97FA53A42C2208160027AFC8 /* Project object */;
+}
