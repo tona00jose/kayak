@@ -8,5 +8,6 @@ SetBluetoothAddress 1.0 SetBluetoothAddress.qml
 Racing 1.0 Racing.qml
 QuickStartGuide 1.0 QuickStartGuide.qml
 Features 1.0 Features.qml
+HistoryScreen 1.0 HistoryScreen.qml
 depends QtQuick
 
